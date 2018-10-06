@@ -1,0 +1,2 @@
+Timer patterns
+PAUSE 1 folder

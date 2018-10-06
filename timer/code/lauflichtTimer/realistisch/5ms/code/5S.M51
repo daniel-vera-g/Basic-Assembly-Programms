@@ -1,0 +1,151 @@
+LX51 CODE BANKING LINKER/LOCATOR V05.01.21       10/05/18  18:35:11  PAGE  1
+WIN32 LX51 CODE BANKING LINKER/LOCATOR V05.01.21,  INVOKED BY:
+LX51 d:\abitur\tit-h\mikrocontroller\assembler-patterns\timer\code\lauflichtt&
+imer\realistisch\5ms\code\5s.OBJ TO(d:\abitur\tit-h\mikrocontroller\assembler&
+-patterns\timer\code\lauflichttimer\realistisch\5ms\code\5s.AOF) PR(d:\abitur&
+\tit-h\mikrocontroller\assembler-patterns\timer\code\lauflichttimer\realistis&
+ch\5ms\code\5s.m51) PW(80) XSIZE(65536) CSIZE(65536) RS(256) RSI(128) IX MAP &
+
+
+
+INPUT MODULES INCLUDED
+  D:\ABITUR\TIT-H\MIKROCONTROLLER\ASSEMBLER-PATTERNS\TIMER\CODE\LAUFLICHTTIMER\&
+REALISTISCH\5MS\CODE\5S.OBJ(5S)
+
+
+LINK MAP OF MODULE: D:\ABITUR\TIT-H\MIKROCONTROLLER\ASSEMBLER-PATTERNS\TIMER\CO&
+DE\LAUFLICHTTIMER\REALISTISCH\5MS\CODE\5S.AOF (5S)
+
+    TYPE     BASE       LENGTH    RELOCATION     SEGMENT NAME
+    ----     ----       ------    ----------     ------------
+
+    * * * * * * *   DATA/IDATA    M E M O R Y   * * * * * * *
+    REG      0000H      0008H     ABSOLUTE       "REG BANK 0"
+
+    * * * * * * *   CODE          M E M O R Y   * * * * * * *
+    CODE     0000H      0003H     ABSOLUTE       
+    CODE     0003H      0036H     ABSOLUTE       
+
+EXECUTABLE SUMMARY:
+-------------------
+    Total INTERNAL RAM storage requirement:  0008H (8)
+    Total EXTERNAL RAM storage requirement:  0000H (0)
+    Total     CODE     storage requirement:  0039H (57)
+Note:  Summary does not include dynamic stack requirements
+
+
+REFERENCE MAP OF MODULE: D:\ABITUR\TIT-H\MIKROCONTROLLER\ASSEMBLER-PATTERNS\TIMER\CODE\LAUFLICHTTIMER\REALISTISCH\&
+5MS\CODE\5S.AOF (5S)
+
+SEGMENT                           BI_GROUP            DT_GROUP             ID_GROUP             XD_GROUP
+  +--> CALLED SEGMENT          START    LENGTH     START    LENGTH     START    LENGTH     START    LENGTH
+--------------------------------------------------------------------------------------
+
+SYMBOL TABLE FOR D:\ABITUR\TIT-H\MIKROCONTROLLER\ASSEMBLER-PATTERNS\TIMER\CODE\&
+LAUFLICHTTIMER\REALISTISCH\5MS\CODE\5S.AOF(5S)
+-------------------------------------------------------------------------------&
+-----------------------------------------------
+
+    VALUE              TYPE               NAME
+    -----              ----               ----
+
+	-------            MODULE             5S
+	D:0082H            SYMBOL             DPL
+	D:0080H            SYMBOL             P0
+	D:0090H            SYMBOL             P1
+	D:00F0H            SYMBOL             B
+	D:00A0H            SYMBOL             P2
+	B:00BCH            SYMBOL             PS
+	D:0081H            SYMBOL             SP
+	D:00B0H            SYMBOL             P3
+	B:00B4H            SYMBOL             T0
+	B:00D6H            SYMBOL             AC
+	C:002CH            SYMBOL             MAIN
+	B:009CH            SYMBOL             REN
+	B:00B5H            SYMBOL             T1
+	B:00D2H            SYMBOL             OV
+	B:00AFH            SYMBOL             EA
+	D:00E0H            SYMBOL             ACC
+	B:00B6H            SYMBOL             WR
+	B:00A9H            SYMBOL             ET0
+LX51 CODE BANKING LINKER/LOCATOR V05.01.21         10/05/18  18:35:11  PAGE  2
+
+	B:00ABH            SYMBOL             ET1
+	B:008DH            SYMBOL             TF0
+	B:008FH            SYMBOL             TF1
+	B:009AH            SYMBOL             RB8
+	D:008CH            SYMBOL             TH0
+	B:00A8H            SYMBOL             EX0
+	B:0088H            SYMBOL             IT0
+	D:008DH            SYMBOL             TH1
+	B:009BH            SYMBOL             TB8
+	B:00B0H            SYMBOL             RXD
+	B:00AAH            SYMBOL             EX1
+	B:008AH            SYMBOL             IT1
+	D:00A8H            SYMBOL             IE
+	B:009FH            SYMBOL             SM0
+	B:00B1H            SYMBOL             TXD
+	B:00D0H            SYMBOL             P
+	D:0099H            SYMBOL             SBUF
+	D:008AH            SYMBOL             TL0
+	D:0087H            SYMBOL             PCON
+	B:009EH            SYMBOL             SM1
+	D:008BH            SYMBOL             TL1
+	B:009DH            SYMBOL             SM2
+	D:0098H            SYMBOL             SCON
+	C:0015H            SYMBOL             INIT
+	B:00B9H            SYMBOL             PT0
+	D:0089H            SYMBOL             TMOD
+	D:0088H            SYMBOL             TCON
+	B:00BBH            SYMBOL             PT1
+	B:00D3H            SYMBOL             RS0
+	B:00B7H            SYMBOL             RD
+	B:008CH            SYMBOL             TR0
+	B:00D4H            SYMBOL             RS1
+	B:00D5H            SYMBOL             F0
+	B:008EH            SYMBOL             TR1
+	B:00B8H            SYMBOL             PX0
+	B:00ACH            SYMBOL             ES
+	B:00BAH            SYMBOL             PX1
+	D:00B8H            SYMBOL             IP
+	D:00D0H            SYMBOL             PSW
+	C:0007H            SYMBOL             TIMER0_INT
+	B:0098H            SYMBOL             RI
+	B:00B2H            SYMBOL             INT0
+	C:002EH            SYMBOL             LAUFLICHT
+	B:00B3H            SYMBOL             INT1
+	B:00D7H            SYMBOL             CY
+	D:0083H            SYMBOL             DPH
+	B:0099H            SYMBOL             TI
+	B:0089H            SYMBOL             IE0
+	B:008BH            SYMBOL             IE1
+	C:0000H            LINE#              7
+	C:0003H            LINE#              13
+	C:0006H            LINE#              14
+	C:0007H            LINE#              19
+	C:000AH            LINE#              20
+	C:000DH            LINE#              21
+	C:000FH            LINE#              22
+	C:0011H            LINE#              23
+	C:0014H            LINE#              24
+	C:0015H            LINE#              31
+	C:0017H            LINE#              32
+	C:0019H            LINE#              36
+	C:001CH            LINE#              37
+	C:001FH            LINE#              40
+	C:0022H            LINE#              41
+	C:0025H            LINE#              44
+	C:0027H            LINE#              45
+	C:0029H            LINE#              46
+	C:002CH            LINE#              51
+LX51 CODE BANKING LINKER/LOCATOR V05.01.21         10/05/18  18:35:11  PAGE  3
+
+	C:002EH            LINE#              55
+	C:002FH            LINE#              56
+	C:0032H            LINE#              57
+	C:0035H            LINE#              58
+	C:0037H            LINE#              59
+	-------            ENDMOD             5S
+
+LINK/LOCATE RUN COMPLETE,  NO ERROR FOUND.
+

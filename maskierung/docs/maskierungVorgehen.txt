@@ -1,0 +1,4 @@
+1. In Akkumulator 
+2. ANL auf gatter machen --> nur letzte 3 
+3. SWAP machen
+4. Rotieren

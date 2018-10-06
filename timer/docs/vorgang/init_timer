@@ -1,0 +1,10 @@
+include reg51.inc
+
+initTimer:
+	MOV TMOD, #0x01 ; Timer 0 auf 16 Bit ohne auto reload initialisieren
+	MOV TH0, #0x3C 	; High byte des timers auf laden
+	MOV TL0, #0xB0	; Low byte des timers laden
+	; Nun ist der Timer so konfiguriert, dass er nach 50.000 Zyklen einen Interrupot wirft
+	SETB TR0 ; Timer starten
+	SETB ET0 		; Timer Interrupt aktivieren
+	SETB EA			; Interrupts generell bewegen
